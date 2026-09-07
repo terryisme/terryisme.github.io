@@ -1,0 +1,92 @@
+{
+  "profile": {
+    "name": "Terry Zhang",
+    "title": "VP of Engineering @ Applory",
+    "location": "Shanghai, China",
+    "tagline": "CTV, Smart TV Platforms, AI & Digital Transformation",
+    "bio": "Vice President of Engineering at Applory, focused on CTV, Smart TV platforms, AI and digital transformation. Former CTO and Managing Director.",
+    "avatar": "assets/avatar.jpg"
+  },
+  "note": {
+    "heading": "Technology Changes the World. Technology Transforms Lives.",
+    "paragraphs": [
+      "Life is more than just living. Work is more than just working. Technology is more than just technology.",
+      "It is about exploring, creating, connecting, and making an impact.",
+      "I believe technology is a catalyst for innovation and transformation. Throughout my career, I have been passionate about building innovative products, developing technology teams, and turning technology into meaningful business impact.",
+      "Today, my focus is on AI, digital transformation, product innovation, and building scalable technology organizations.",
+      "Beyond technology and work, I enjoy traveling, exploring new places, experiencing different cultures, and embracing new ideas and experiences. I believe curiosity, exploration, and continuous learning make both life and work more meaningful.",
+      "Stay curious. Keep exploring. Keep building."
+    ]
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/taigoo",
+    "github": "https://github.com/terryisme",
+    "email": "confach@gmail.com",
+    "x": "https://x.com/terry_is_me"
+  },
+  "experience": [
+    {
+      "role": "Vice President of Engineering",
+      "company": "Applory",
+      "start": "2025-05",
+      "end": "present",
+      "location": "Shanghai, China",
+      "highlights": [
+        "Leading engineering for CTV and Smart TV platforms, including AI and digital transformation."
+      ]
+    },
+    {
+      "role": "CTO",
+      "company": "SUNSHINE H&N",
+      "start": "2019-05",
+      "end": "2025-01",
+      "location": "Shanghai, China",
+      "highlights": [
+        "Leading engineering for 生活Plus.",
+        "Driving the group's digital transformation."
+      ]
+    },
+    {
+      "role": "Managing Director, Xi'an Office",
+      "company": "Syniverse",
+      "start": "2011-11",
+      "end": "2018-05",
+      "location": "Xi'an & Beijing, China",
+      "highlights": []
+    },
+    {
+      "role": "Sr. Technology Manager",
+      "company": "Syniverse",
+      "start": "2009-01",
+      "end": "2018-05",
+      "location": "Beijing, China",
+      "highlights": []
+    },
+    {
+      "role": "Sr. Software Engineer",
+      "company": "Tangerine Technologies",
+      "start": "2005-11",
+      "end": "2008-11",
+      "location": "Shanghai, China",
+      "highlights": [
+        "Built Salesforce-style CRM and a marketing affiliate management system."
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Surrey Technologies",
+      "start": "2003-08",
+      "end": "2005-11",
+      "location": "Shanghai, China",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.S. Computer Science",
+      "school": "Taiyuan University of Science and Technology",
+      "start": "1999",
+      "end": "2003"
+    }
+  ]
+}

@@ -1,1 +1,88 @@
-Welcome Taiguo Zhang's page
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Terry Zhang — VP of Engineering at Applory</title>
+    <meta
+      name="description"
+      content="Terry Zhang, Vice President of Engineering at Applory. CTV, Smart TV Platforms, AI & Digital Transformation. Former CTO and Managing Director."
+    />
+    <link rel="icon" href="assets/avatar.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      document.documentElement.dataset.theme =
+        localStorage.getItem("theme") === "light" ? "light" : "dark";
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href="#about" id="brand">Terry Zhang</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#career">Career</a>
+          <a href="#education">Education</a>
+          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.1 5.1l1.6 1.6M17.3 17.3l1.6 1.6M5.1 18.9l1.6-1.6M17.3 6.7l1.6-1.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M15.2 3.4a8.5 8.5 0 1 0 5.4 13.8A7 7 0 0 1 15.2 3.4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="hero">
+          <div class="avatar-wrap">
+            <img id="avatar" src="assets/avatar.jpg" alt="Terry Zhang" width="220" height="220" />
+            <div id="avatar-fallback" class="avatar-fallback" hidden>TZ</div>
+          </div>
+          <div class="hero-copy">
+            <h1 id="profile-name">Terry Zhang</h1>
+            <p id="profile-title" class="title">VP of Engineering @ Applory</p>
+            <p id="profile-tagline" class="tagline">
+              CTV, Smart TV Platforms, AI & Digital Transformation
+            </p>
+            <p id="profile-bio" class="bio">
+              Vice President of Engineering at Applory, focused on CTV, Smart TV platforms,
+              AI and digital transformation. Former CTO and Managing Director.
+            </p>
+            <a class="button" href="#note">About me</a>
+            <div id="hero-links" class="socials"></div>
+          </div>
+        </div>
+        <div id="note" class="section note">
+          <h2 id="note-heading" class="note-title">
+            Technology Changes the World. Technology Transforms Lives.
+          </h2>
+          <div id="note-body" class="note-body">
+            <p>Life is more than just living. Work is more than just working. Technology is more than just technology.</p>
+            <p>It is about exploring, creating, connecting, and making an impact.</p>
+            <p>I believe technology is a catalyst for innovation and transformation. Throughout my career, I have been passionate about building innovative products, developing technology teams, and turning technology into meaningful business impact.</p>
+            <p>Today, my focus is on AI, digital transformation, product innovation, and building scalable technology organizations.</p>
+            <p>Beyond technology and work, I enjoy traveling, exploring new places, experiencing different cultures, and embracing new ideas and experiences. I believe curiosity, exploration, and continuous learning make both life and work more meaningful.</p>
+            <p>Stay curious. Keep exploring. Keep building.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="career" class="section">
+        <h2 class="section-title">Career</h2>
+        <p class="section-lead">Roles across product engineering and technology leadership.</p>
+        <div id="career-list" class="stack"></div>
+      </section>
+
+      <section id="education" class="section">
+        <h2 class="section-title">Education</h2>
+        <div id="education-list" class="stack"></div>
+      </section>
+    </main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
